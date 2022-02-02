@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/outfit-variablefont_wght-webfont.woff");
+}
+body {
+  background-color: rgb(58, 73, 101);
+  font-family: "arial";
+  text-align: center;
+  margin-top: 20px;
+}
+
+table,
+th,
+td,
+input {
+  text-transform: uppercase;
+  margin: auto;
+  font-size: 16px;
+  padding: 30px;
+  border-right: rgba(150, 150, 155, 0.2) 2px solid;
+}
+th {
+  background-color: rgba(250, 250, 250, 1);
+  font-size: 18px;
+}
+
+.cents {
+  position: absolute;
+  top: 145px;
+}
+
+.item-1 {
+  padding-top: 40px;
+  background-color: rgba(250, 250, 250, 1);
+  text-align: center;
+  vertical-align: middle;
+}
+.item-2 {
+  font-size: 24px;
+  background-color: rgb(137, 195, 49);
+  color: white;
+}
+.item-3 {
+  background-color: rgb(192, 73, 76);
+  color: white;
+  font-size: 30px;
+}
+.item-4 {
+  background-color: rgb(99, 131, 72);
+  color: white;
+  font-size: 24px;
+}
+.header {
+  background-color: rgb(242, 242, 242);
+}
+
+.odd-tr {
+  background-color: rgba(242, 242, 242, 1);
+}
+.even-tr {
+  background-color: rgba(227, 227, 227, 1);
+}
+
+/* TBODY THE END */
+
+/* TFOOT BEGINNING */
+
+.foot-item1 {
+  background-color: white;
+}
+.btn {
+  width: 194px;
+  height: 50px;
+  margin: 40px;
+
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-shadow: 0px -1px 0px #5b6178;
+  border: none;
+}
+.btn:hover {
+  background: linear-gradient(to bottom, #da16e0 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.first-btn {
+  background-color: rgba(64, 64, 64, 1);
+  box-shadow: 0px 12px 2px 0px rgba(150, 150, 155, 0.2);
+}
+.second-btn {
+  background-color: rgb(137, 195, 49);
+  box-shadow: 0px 6px 2px 0px rgba(137, 195, 049, 0.2);
+}
+.third-btn {
+  background-color: rgb(192, 73, 76);
+  box-shadow: 0px 6px 2px 0px rgba(192, 73, 76, 0.2);
+}
+.fourth-btn {
+  background-color: rgb(99, 131, 72);
+  box-shadow: 0px 6px 2px 0px rgba(99, 131, 72, 0.2);
+}
+/* TFOOT THE END */
